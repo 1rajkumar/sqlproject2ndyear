@@ -49,5 +49,3 @@ FROM
   select `test_db`.`employee`.`idemployee` from `test_db`.`employee`
   union all
   select `test_db`.`department`.`personid`from `test_db`.`department`;
- BACKUP DATABASE test_db
- to disk=`E:\testdb.bak`;
