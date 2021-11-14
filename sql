@@ -1,1 +1,1 @@
-csf
+create databse db;
